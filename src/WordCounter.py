@@ -8,15 +8,6 @@ class WordCounter:
     
     def get_word_count(self):
         return self.count
-    
-    
-    # def get_shortest_word(self):
-    #     words = self.sentence.split()
-    #     return min(len(eachWord) for eachWord in words)
-    
-    # def get_longest_word(self):
-    #      words = self.sentence.split()
-    #      return max(len(eachWord) for eachWord in words)
 
     def get_shortest_word(self):
         words = self.sentence.split()
@@ -34,7 +25,13 @@ class WordCounter:
                 maxLength = len(eachWords)
         return maxLength
 
+    # def get_shortest_word(self):
+    #     words = self.sentence.split()
+    #     return min(len(eachWord) for eachWord in words)
     
+    # def get_longest_word(self):
+    #      words = self.sentence.split()
+    #      return max(len(eachWord) for eachWord in words)
 
         
 
